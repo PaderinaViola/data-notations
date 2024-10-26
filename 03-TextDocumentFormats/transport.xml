@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transport_all>
+    <transport type="car" usage="personal">
+        <brand>Hyundai</brand>
+        <model>Accent</model>
+        <year>2018</year>
+        <fuel>Petrol</fuel>
+    </transport>
+    <transport type="bicycle" usage="recreation">
+        <brand>Angel</brand>
+        <model>Wow 2</model>
+        <year>2021</year>
+        <gearCount>7</gearCount>
+    </transport>
+    <transport type="bus" usage="public">
+        <company>Krakow city transport</company>
+        <routeNumber>182</routeNumber>
+        <year>2020</year>
+        <fuel>Electro</fuel>
+    </transport>
+</transport_all>
