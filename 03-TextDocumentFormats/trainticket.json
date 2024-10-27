@@ -1,0 +1,12 @@
+{
+    "ticketNumber": "FHS13",
+    "passengerName": "Viola Paderina",
+    "departureStation": "Krakow",
+    "arrivalStation": "Warsaw main station",
+    "departureTime": "17:30",
+    "arrivalTime": "23:40",
+    "seatNumber": "13D",
+    "price": 50,
+    "isRoundTrip": false,
+    "class": "Business"
+}

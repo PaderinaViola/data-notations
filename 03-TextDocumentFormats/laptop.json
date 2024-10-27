@@ -1,0 +1,10 @@
+{
+    "brand": "Dell",
+    "model": "Inspiron 15",
+    "year": 2023,
+    "isTouchscreen": false,
+    "devices": ["touchpad","webcam"],
+    "videocard": "RTX900",
+    "proccessor": "Intel core i5",
+    "operating modes": ["quiet", "balanced", "maximum"]
+    }

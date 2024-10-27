@@ -53,5 +53,27 @@
             "Outerwear",
             "Accessories"
         ]
+    },
+    {
+        "name": "Levi's",
+        "founded": 1853,
+        "headquarters": "San Francisco, California, USA",
+        "employees": 14000,
+        "products": [
+            "Denim",
+            "Apparel",
+            "Accessories"
+        ]
+    },
+    {
+        "name": "The North Face",
+        "founded": 1968,
+        "headquarters": "Alameda, California, USA",
+        "employees": 3200,
+        "products": [
+            "Outdoor Apparel",
+            "Footwear",
+            "Accessories"
+        ]
     }
 ]
