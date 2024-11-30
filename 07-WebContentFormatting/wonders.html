@@ -5,13 +5,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Wonders of the Natural World</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0;
+        }
+        h1 {
+            text-align: center;
+        }
+        h2 {
+            background-color: rgb(221, 243, 234);
+        }
+        p {
+            margin-bottom: 30px;
+        }
+
+        table {
+            border: 7px solid rgb(39, 87, 68) ;
+        }
+        td {
+            padding: 15px;
+            border-width: 2px;
+            border-color: aquamarine;
+        }
+        th {
+            padding: 20px;
+            border-width: 3px;
+            border-color: rgba(101, 194, 141, 0.776);
+        }
+        input {
+            width: 300px;
+            padding: 10px;
+            margin-bottom: 17px;
+        }
+        select {
+            width: 220px;
+            padding: 10px;
+            margin-bottom: 17px;
+        }
+        textarea {
+            width: 300px;
+            margin-bottom: 17px;
+        }
+        input[type="submit"] {
+            background-color:rgb(53, 87, 70);
+            color: rgb(249, 244, 254);
+            border-radius: 50px;
+            margin-top: 35px;
+        }
+        input[type="submit"]:hover {
+            background-color: rgb(129, 206, 180);
+        }
+        a {
+            color: rgb(0, 143, 143);
+            text-decoration: none;
+        }
+        .grand-canyon {
+            margin-bottom: 0px;
+            color: darkgreen;
+        }
+        .great-barrier-reef {
+            color: blue;
+        }
+        .mount-everest {
+            color: gray;
+        }
+
+        
+    </style>
 </head>
 
 <body>
 
     <h1>The Wonders of the Natural World</h1>
-
-    <!-- Section 1: The Grand Canyon -->
+    <section class="grand-canyon">
     <h2>The Grand Canyon</h2>
     <p>
         The Grand Canyon is one of the most remarkable natural formations in the world. It is located in the state of
@@ -26,8 +93,9 @@
         each year. The best time to visit is during the spring or fall when the weather is mild. The Grand Canyon is
         also home to various wildlife species, including bighorn sheep and California condors.
     </p>
+    </section>
 
-    <!-- Section 2: The Great Barrier Reef -->
+    <section class="great-barrier-reef">
     <h2>The Great Barrier Reef</h2>
     <p>
         The Great Barrier Reef is the largest coral reef system in the world. It is located off the coast of Queensland,
@@ -42,8 +110,9 @@
         bleaching. Efforts are being made to protect and preserve this natural wonder. It remains a vital habitat for
         marine life and a source of tourism revenue for Australia.
     </p>
+    </section>
 
-    <!-- Section 3: Mount Everest -->
+    <section class="mount-everest">
     <h2>Mount Everest</h2>
     <p>
         Mount Everest is the tallest mountain in the world, standing at 29,032 feet above sea level. It is located in
@@ -59,7 +128,7 @@
         people, who have lived in its shadow for centuries. The best climbing season is typically from late April to
         early June.
     </p>
-
+    </section>
     <!-- Table 1: Natural Wonders Dimensions -->
     <h2>Natural Wonders Dimensions</h2>
     <table border="1">
@@ -147,7 +216,7 @@
         </div>
 
         <div>
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" class="submit-button">
         </div>
     </form>
 

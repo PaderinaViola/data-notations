@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Famous Landmarks Around the World</title>
+    <style>
+        h1 {
+            padding: 20px;
+            margin: 20px auto;
+            background-color: lightgray;
+            text-align: center;
+        }
+
+        p {
+            width: 550px;
+            padding: 15px;
+            border-bottom: 2px solid rgb(110, 37, 37);
+            margin: 10px auto;
+            text-align: left;
+            font-family: 'Arial', sans-serif;
+        }
+        h2 {
+            text-align: center;
+            color: blueviolet;
+            margin: 20px auto;
+            border: 100px;
+        }
+        ul  {
+            color: rgb(126, 35, 39);
+            margin: 40px auto;
+            border: 200px;
+        }
+        .box h2 {
+            margin-top: 5px;
+        }
+        .row {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .box {
+            background-color: #3498db;
+            color: white;
+            padding: 20px;
+            margin: 10px;
+            flex: 1 1 30%;
+            box-sizing: border-box;
+        }
+        @media (max-width: 768px) {
+            .row {
+                flex-direction: column;
+            }
+
+            .box {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Famous Landmarks Around the World</h1>
+    <div class="row">
+        <div class="box">
+            <h2>Landmarks You Must Visit</h2>
+            <p>Across the globe, there are countless breathtaking landmarks, each with its own unique history, culture, and
+                beauty. From ancient wonders to modern architectural marvels, here are some of the most famous places that you
+                should consider adding to your travel list.</p>
+        </div>
+        <div class="box">
+            <h2>Popular Landmarks</h2>
+            <ul>
+                <li>Eiffel Tower, Paris</li>
+                <li>Great Wall of China, China</li>
+                <li>Pyramids of Giza, Egypt</li>
+                <li>Statue of Liberty, New York</li>
+                <li>Machu Picchu, Peru</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>
